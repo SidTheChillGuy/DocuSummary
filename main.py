@@ -2,8 +2,8 @@ try:
     import gradio as gr
 except:
     raise ValueError("please perform action - pip install gradio")
-#from sentence_transformers import SentenceTransformer
-#from transformers import BitsAndBytesConfig, AutoModelForCausalLM, AutoTokenizer
+from sentence_transformers import SentenceTransformer
+from transformers import BitsAndBytesConfig, AutoModelForCausalLM, AutoTokenizer
 import torch
 import chromadb
 import os
