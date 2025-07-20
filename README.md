@@ -57,3 +57,5 @@ My main motive was to run this project on general consumer hardware (8GB system 
 A Major issue I came across was the CUDA memory not cleaning up after the reference to models were removed, turns out is an issue where the objects sent to CUDA stayed in memory even after their references are deleted. This led to me writing file scripts and calling them using subprocess to circumvent the issue. When the file exits after processing, the models are removed from memory.
 
 Given this issue, it also meant I cannot load the chat model initially. I have to explicitly load the required models when user needs them, thus the overall loading time is high.
+
+Tested only on Ubuntu WSL on 3 systems, and i **RECOMMEND** using Linux, as NVIDIA CUDA isnt supported via Windows. So you probably need CUDA drivers as well.
