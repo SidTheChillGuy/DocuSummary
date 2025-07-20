@@ -3,6 +3,29 @@ A smart MultiModal RAG application that allows you to query your documents!
 
 ## Screenshots
 
+<div style="display: flex; justify-content: space-around;">
+  <img src="src/1.png" alt="Welcome Page Light" width="500" />
+  <img src="src/2.png" alt="Upload documents Light" width="500" />
+</div>
+
+
+
+<div style="display: flex; justify-content: space-around;">
+  <img src="src/3.png" alt="Upload Documents Light" width="500" />
+  <img src="src/4.png" alt="Dependencies Installation Light" width="500" />
+</div>
+
+
+<div style="display: flex; justify-content: space-around;">
+  <img src="src/5.png" alt="Dependencies Installation Light" width="500" />
+  <img src="src/6.png" alt="Model Chat Light" width="500" />
+</div>
+
+
+<div style="display: flex; justify-content: space-around;">
+  <img src="src/7.png" alt="Welcome Dark" width="500" />
+  <img src="src/8.png" alt="Chat Dark" width="500" />
+</div>
 
 ## Utilized Tools
 - Language: Python
