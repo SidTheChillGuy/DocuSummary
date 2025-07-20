@@ -131,7 +131,6 @@ def insdep_pip():
         yield (out)
     process.wait()
 def answerquery(query,hist):
-    print(hist)
     if len(hist)>0:
         with open("src/userhist.txt", "a") as f:
             f.write(str(hist[-2]))
@@ -173,7 +172,6 @@ def answerquery(query,hist):
             output_ids[len(input_ids):] for input_ids, output_ids in zip(model_inputs.input_ids, generated_ids)
         ]
         response = instructtoken.batch_decode(generated_ids, skip_special_tokens=True)[0]
-        print(response)
     torch.cuda.empty_cache()
     return response
 
