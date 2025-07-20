@@ -4,6 +4,13 @@ A smart MultiModal RAG application that allows you to query your documents!
 ## Screenshots
 
 
+## Utilized Tools
+> Language: Python
+> Modules: transformers, huggingface_hub, sentence_transformers, pdf2image (poppler-utils)
+> VLM Model: InternVL3 from OpenGVLabs
+> Embedding Model: Qwen3 Embedding Model
+> Chat Model: Qwen3 Instruct Model
+
 ### What is RAG?
 Retrival Augmented Generation - as the name implies, uses "Retrieval" method to generate answers for user query.
 We use a retrieval model to retrive relevent data from our knowledge base. This data is then passed as a context to our Generative model, which answers the user's exact query using the contexts.
