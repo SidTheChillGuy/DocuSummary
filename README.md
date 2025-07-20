@@ -6,7 +6,7 @@ A smart MultiModal RAG application that allows you to query your documents!
 
 ## Utilized Tools
 > Language: Python
-> Modules: transformers, huggingface_hub, sentence_transformers, pdf2image (poppler-utils)
+> Modules: gradio, transformers, huggingface_hub, sentence_transformers, pdf2image (poppler-utils), torch, chroma_db
 > VLM Model: InternVL3 from OpenGVLabs
 > Embedding Model: Qwen3 Embedding Model
 > Chat Model: Qwen3 Instruct Model

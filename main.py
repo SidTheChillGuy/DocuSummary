@@ -9,6 +9,11 @@ import chromadb
 import os
 import subprocess
 
+os.makedirs("tmp", exist_ok=True)
+os.makedirs("db/chroma_store", exist_ok=True)
+os.makedirs("data", exist_ok=True)
+os.makedirs("src", exist_ok=True)
+
 modelsimported = False
 
 with open("src/userhist.txt", "w") as f:
